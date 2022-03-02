@@ -20,8 +20,10 @@ a {
   color: rgb(231, 231, 231);
 }
 
-.navbar {
+.common-margin {
   margin: 0 14%;
+}
+.navbar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,53 @@ a {
 
 .nav-link:hover{
   color: darkgreen;
+}
+/* Section 2 - Showcase */
+
+#showcase {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+}
+
+.showcase-product {
+  background-color: rgb(255, 211, 211);
+  width: 50%;
+}
+
+.showcase-column {
+  background-color: aquamarine;
+  width: 22%;
+}
+
+/* Section 3 - Products showcase*/
+
+#products {
+  height: 40vh;
+  background-color: beige;
+  display: flex;
+}
+
+.product-shelf {
+  background-color: rgb(205, 255, 255);
+  width: 17%;
+  height: inherit;
+}
+
+.product-shelf:nth-child(odd) {
+  background-color: aqua;
+}
+
+/* Section 4 - Footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: black;
+  height: 4rem;
 }
 /* Section 1.1 - Navbar hamburger menu*/
 
